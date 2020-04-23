@@ -62,7 +62,7 @@ describe('Client - Platform - Identities - .register()', () => {
             "scriptPubKey": "76a9144a4777271b2eaeac9c2cc2984b6bf0a73940d5ea88ac",
             "amount": 10
         })];
-    }
+    };
     // @ts-ignore
     mockedContext.client.applyStateTransition = (identityStateTransition) => {
         console.log({identityStateTransition})
